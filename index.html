@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciador de Orçamento para Compra de Bebidas</h1>
+
+        <form>
+            <label for="localização de importação">Localização de Importação:</label>
+            <select id="localização de importação">
+                <option>Selecione a Localização</option>
+                <option>Curitiba</option>
+                <option>Colombo</option>
+                <option>São José dos Pinhais</option>
+            </select>
+
+            <label for="quantidade">Quantos Produtos Necessários</label>
+            <input type="text" class="form-control" id="quantidade" placeholder="Digite a Quantidade">
+
+            <label for="orçamento">Orçamento Total</label>
+            <input type="text" class="form-control" id="orçamento" maxlength="7" placeholder="R$1,0000">
+
+            <label for="distribuidoras">Distribuidoras com Convênio</label>
+            <select id="Distribuidoras com Convênio">
+                <option>Selecione a Distribuidora</option>
+                <option>Bebilandia</option>
+                <option>Distribuidoras Lima</option>
+                <option>Bar do Zé</option>
+                <option>Atacado</option>
+            </select>
+
+            <label for="dataEntrega">Previsão de Entrega</label>
+            <input type="datetime-local" class="form-control" id="dataEntrega">
+
+            <label for="Preço por Unidade">Preço por Unidade</label>
+            <input type="text" class="form-control" id="preço" maxlength="7" placeholder="Digite o Preço">
+
+            <button type="button" class="btn">Registrar</button>
+            <button type="submit" class="btn">Editar</button>
+            <button type="button" class="btn">Salvar</button>
+            <button type="submit" class="btn">Cancelar</button>
+        </form>
+    </div>
+</body>
+</html>
